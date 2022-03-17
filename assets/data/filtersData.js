@@ -2,7 +2,7 @@ export const mainFilters = [
     { label: 'Country', value: 'Country' },
     { label: 'Industry', value: 'Industry' },
     { label: 'Sector', value: 'Sector' },
-    { label: 'Market Capitilization', value: 'Market Capitilization' },
+    // { label: 'Market Capitilization', value: 'Market Capitilization' },
     { label: 'All Tickers', value: 'All Tickers' },
 ]
 
