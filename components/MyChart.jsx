@@ -24,7 +24,7 @@ const MyChart = ({ chartData }) => {
     }); 
     console.log(chartKaData)
     setData(chartKaData)
-  },[])
+  },[chartData])
 
   return (
     <>
