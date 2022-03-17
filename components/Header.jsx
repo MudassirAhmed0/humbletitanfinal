@@ -202,8 +202,9 @@ const Header = () => {
                 </div>
                 <div className="topnav" id="myTopnav">
                     <div className="abcd_col-12 abcd_h-70 abcd_row justify-content">
-                        <div className="header_main_logo abcd_row abcd_justify-between abcd_relative abcd_h-fit">
-                            <img className="abcd_pt-pl" src="https://www.designinguru.com/imgs/HT-Standard-Logo.png" alt="Humble Titan Logo" />
+                        <div className="header_main_logo reponsiveMenu abcd_row abcd_justify-between abcd_relative abcd_h-fit">
+                            {/* <img className="abcd_pt-pl" src="https://www.designinguru.com/imgs/HT-Standard-Logo.png" alt="Humble Titan Logo" /> */}
+                            <Image src={logo_header} alt="Humble Titan Logo" />
                         </div>
                         <div><a className="icon abcd_humberger">
                             <FaBars className=' icon-font' />

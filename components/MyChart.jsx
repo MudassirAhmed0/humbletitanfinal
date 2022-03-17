@@ -21,8 +21,7 @@ const MyChart = ({ chartData }) => {
     })
     chartKaData?.sort(function(a, b) {
       return a.sortingKey - b.sortingKey;
-    }); 
-    console.log(chartKaData)
+    });  
     setData(chartKaData)
   },[chartData])
 

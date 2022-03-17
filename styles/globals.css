@@ -62,7 +62,12 @@
     color: #59667d;
     line-height: 34px;
   }
-  
+  .pl-1_abcd{
+    padding-left: 1rem;
+  }
+  .pr-1_abcd{
+    padding-right: 1rem;
+  }
   .abcd_container {
     width: 90%;
     max-width: 1240px;
@@ -214,7 +219,17 @@
   .mt-1_abcd {
     margin-top: 1rem;
   }
-  
+.tickerListItem{
+    border: 2px solid #023a51;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 8px;
+
+  }
+  a{
+    color: inherit;
+    text-decoration: none;
+  }
   .mt-1-2_abcd {
     margin-top: 1.2rem;
   }
@@ -290,6 +305,9 @@
   
   .pt-5_abcd {
     padding-top: 5rem;
+  }
+  .pb-2_abcd{
+    padding-bottom: 2rem;
   }
   .pt-5px{
     padding-top: 5px;
@@ -1094,7 +1112,10 @@
     padding-top: 1rem;
     padding-left: 1.5rem;
   }
-  
+  .reponsiveMenu img{
+    padding-top: 1rem !important;
+    padding-left: 1.5rem !important;
+  }
   .abcd_h-fit {
     height: -webkit-fit-content;
     height: -moz-fit-content;
